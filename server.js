@@ -17,7 +17,11 @@ connect_cloudinary()
 // middleware
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "*"
+  })
+);
 
 //API END POINTS
 app.use('/api/user',User_router);
