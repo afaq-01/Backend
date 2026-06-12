@@ -10,7 +10,7 @@ import {placeOrder_Router} from './controllers/placeOrder_routes.js'
 
 // APP CONFIG
 const app = express();
-const port = process.env.PORT || 4000;
+//const port = process.env.PORT || 4000;
 Connectdb()
 connect_cloudinary()
 
@@ -35,4 +35,4 @@ app.use('/api/placeOrder',placeOrder_Router)
 
 
 
-app.listen(port);
+app.listen(8080);
