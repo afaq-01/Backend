@@ -22,7 +22,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://frontend-fawn-ten-71.vercel.app"
+      "https://frontend-delta-navy-4hcyvec3cs.vercel.app"
     ],
     credentials: true
   })
